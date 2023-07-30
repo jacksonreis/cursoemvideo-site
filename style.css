@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --cor-blue: #2727FF;
+    --cor-white: #EFEFEF;
+
+    --font-padrao: font-family: 'Sora', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: pink url(midia/back-site.png) center top no-repeat;
+    background-size: cover;
+    font-family: 'Sora', sans-serif;
+    color: var(--cor-white);
+}
+
+main {
+    max-width: 1440px;
+    margin: auto;
+}
+
+#card-1 {
+    max-width: 1440px;
+    height: 824px;
+    margin: auto;
+}
+
+#content  {
+    max-width: 1350.93px;
+    margin: auto;
+    margin-top: 271px;
+}
+
+#texts-button {
+    width: 501px;
+    height: 539px;
+    display: block;
+}
+
+#logo {
+    width: 179px;
+    height: 54px;
+}
+
+#card-1 h1 {
+    font-size: 90px;
+    line-height: 83px; /* ESPAÇAMENTO ENTRE LINHAS */
+    width: 501px;
+    height: 240px;
+}
+
+#card-1 span {
+    color: var(--cor-blue);
+}
+
+#bt-cta {
+    width: 380px;
+    height: 83px;
+    padding: 25px 50px;
+    background-color: var(--cor-blue);
+    border-radius: 65px;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: var(--font-padrao);
+    border: none;
+    color: var(--cor-white);
+}
+
+#img-gustavo {
+    width: 799.86px;
+}
+
+#container-img {
+    display: flex;
+}
